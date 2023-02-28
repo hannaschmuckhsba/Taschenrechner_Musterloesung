@@ -6,6 +6,9 @@ public class Main {
         try {
             double result = calculator.add(0.5, 2);
             System.out.println("Das Ergebnis ist: "+ result);
+
+            result = calculator.subtract(3,1);
+            System.out.println("Das Ergebnis ist: "+result);
         }
 
         catch (Exception e) {
