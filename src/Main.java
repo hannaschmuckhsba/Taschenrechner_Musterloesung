@@ -9,10 +9,16 @@ public class Main {
 
             result = calculator.subtract(3,1);
             System.out.println("Das Ergebnis ist: "+result);
+
+            result = calculator.multiply(2, 5);
+            System.out.println( "Das Ergebnis ist: "+result);
+
+            result = calculator.divide(2,1);
+            System.out.println("Das Ergebnis ist: "+result);
         }
 
         catch (Exception e) {
-            System.out.println("Irgendwas ist falsch." + e.getMessage());
+            System.out.println("Irgendwas ist falsch. " + e.getMessage());
         }
 
     }
