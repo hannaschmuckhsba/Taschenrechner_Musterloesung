@@ -1,5 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        TaschenrechnerBackend calculator = new TaschenrechnerBackend();
+
+        try {
+            double result = calculator.add(0.5, 2);
+            System.out.println("Das Ergebnis ist: "+ result);
+        }
+
+        catch (Exception e) {
+            System.out.println("Irgendwas ist falsch." + e.getMessage());
+        }
+
     }
 }
